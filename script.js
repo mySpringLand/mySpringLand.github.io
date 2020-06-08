@@ -277,7 +277,7 @@ $(function () {
       icon: new L.DivIcon({
         className: 'my-div-icon',
         /// Стилизуя тег ниже - стилизуются маркеры
-        html: '<div class="container" data-id="'+city.id+'" style="height: 10px; width: 10px; border: 1px solid"></div>'
+        html: '<div class="container" data-id="'+city.id+'" style="height: 15px; width: 15px; border: 1px solid"></div>'
       })
     }).addTo(map);
 
