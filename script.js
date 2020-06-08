@@ -8,7 +8,7 @@ $(function () {
     maxBounds: ibounds,
 	minZoom: -0.5,
   }).setView([1700,170], 0);
-  var image = L.imageOverlay('udm.svg', ibounds).addTo(map);
+  var image = L.imageOverlay('udm.SVG', ibounds).addTo(map);
   map.fitBounds(ibounds);
 
   /// Описание городов
