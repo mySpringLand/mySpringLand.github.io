@@ -8,7 +8,7 @@ $(function () {
     maxBounds: ibounds,
 	minZoom: -0.5,
   }).setView([1700,170], 0);
-  var image = L.imageOverlay('UDMURTIA.svg', ibounds).addTo(map);
+  var image = L.imageOverlay('mySpringLand.github.io/UDMURTIA.svg', ibounds).addTo(map);
   map.fitBounds(ibounds);
 
   /// Описание городов
