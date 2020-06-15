@@ -39,8 +39,8 @@ div[id*=map_tabs] {
 	font-family: 'Merriweather';
 	width: 85%;
 	height: auto;
-	background-color: #ddd5c2;
+	background-color: #ffffff;
 	text-align: justify;
 	padding: 7px;
-	border: 7px solid #2f524e;
+	border: 7px solid #c3d3ed;
 }

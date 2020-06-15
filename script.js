@@ -277,7 +277,7 @@ $(function () {
       icon: new L.DivIcon({
         className: 'my-div-icon',
         /// Стилизуя тег ниже - стилизуются маркеры
-        html: '<div class="container" data-id="'+city.id+'" style="height: 16px; width: 16px; border: 1px solid"></div>'
+        html: '<div class="container" data-id="'+city.id+'" style="height: 15px; width: 15px; border: 1px solid"></div>'
       })
     }).addTo(map);
 
@@ -304,7 +304,7 @@ $(function () {
         icon: new L.DivIcon({
           className: 'my-div-icon',
           // стилизуя тег ниже - стилизуются итоговые маркеры с городом
-          html: '<div class="container" data-id="'+city.id+'" style="color: red; font-size: 10px">'+city.name+'</div>'
+          html: '<div class="container" data-id="'+city.id+'" style="color: black; font-size: 20px">'+city.name+'</div>'
         })
       }).addTo(map);
       setTimeout(function () {
