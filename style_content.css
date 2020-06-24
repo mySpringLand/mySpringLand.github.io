@@ -14,9 +14,9 @@
 }
 
 div[id*=txt] {
-	margin: 5% 0 0 10%;
+	margin: 3% 3% 0 11%;
 	font-family: 'Merriweather';
-	width: 85%;
+	width: auto;
 	height: auto;
 	background-color: #ffffff;
 	text-indent: 1.5em;
@@ -26,15 +26,13 @@ div[id*=txt] {
 }
 
 #tabs {
-	margin-top: 70px;
+	margin: 70px 0 70px 0;
 	top:0px;
 	left:0px;
-	height: 92%;
+	height: 85%;
 	display: flex;
 	flex-direction: column;
 	position: absolute;
-	float: left;
-	background-color: #ffffff;
 	text-align: center;
 }
 

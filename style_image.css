@@ -2,4 +2,11 @@
 	width: 400px;
 	float: right;
 	margin: 7px 7px 7px 7px;
+	display: block;
+	border: none;
+}
+
+#vavozh_gerd, #vozn_chram, #chepca, #baba, #baigurez, #ludorvay, #grove, #kambarka_museum, #karakulino, #mudop_kyz, #multan, #selty, #mountains, #turyngurt, #usadba, #bessermyane, #izh, #kar, #alnashu {
+	float: left;
+	width: 300px;
 }
