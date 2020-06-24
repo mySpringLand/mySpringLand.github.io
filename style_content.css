@@ -1,5 +1,14 @@
+#content {
+	height: 99%;
+	position:fixed;
+}
+
 .tab {
 	display: none;
+	overflow-y:scroll;
+	width: auto;
+	height: 71%;
+	margin-bottom: 70px;
 }
 
 .name_district {
@@ -16,20 +25,20 @@
 div[id*=txt] {
 	margin: 3% 3% 0 11%;
 	font-family: 'Merriweather';
-	width: auto;
-	height: auto;
 	background-color: #ffffff;
 	text-indent: 1.5em;
 	text-align: justify;
 	padding: 7px;
 	border: 7px solid #c3d3ed;
+	font-size: 16px;
+	padding: 45px;
 }
 
 #tabs {
-	margin: 70px 0 70px 0;
+	margin: 20px 0 20px 0;
 	top:0px;
 	left:0px;
-	height: 85%;
+	height: auto;
 	display: flex;
 	flex-direction: column;
 	position: absolute;
