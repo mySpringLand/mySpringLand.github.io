@@ -50,9 +50,8 @@ div[id*=txt] {
 	width: 155px;
 	margin-left: 5px;
 	margin-top: 5px;
-	padding-top: 7px;
+	padding-top: 5%;
 	color: #30596d;
-	
 }
 
 .tab_style:hover{
