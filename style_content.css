@@ -35,19 +35,18 @@ div[id*=txt] {
 }
 
 #tabs {
-	margin: 20px 0 20px 0;
+	margin: 70px 0 20px 0;
 	top:0px;
 	left:0px;
-	height: 85%;
+	height: 80%;
 	display: flex;
 	flex-direction: column;
-	position: absolute;
+	position: fixed;
 	text-align: center;
 	overflow-y: scroll;
 }
 
 .tab_style{
-	height: auto;
 	width: 155px;
 	margin-left: 5px;
 	margin-top: 4px;
