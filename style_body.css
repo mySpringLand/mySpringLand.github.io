@@ -86,10 +86,13 @@ body {
 }
 
 .question {
-	width: 30px;
-	height: 30px;
-	float: right;
-	margin-top: 20px;
+	margin-top: -35px;
+	margin-right: 25px;
+	width: 40px;
+	height: 40px;
+	right: 0px;
+	z-index: 4000;
+	position:absolute;
 }
 
 .overlay {

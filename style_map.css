@@ -4,8 +4,8 @@
 }
 
 #map {
-	width: 594px;
-    height: 786px;
+	width: 561px;
+    height: 761px;
 }
 
 .cities {
@@ -35,9 +35,9 @@
 }
 
 div[id*=map_tabs] {
-	margin: 3% 5% 0 10%;
+	margin: 1% 1% 0 10%;
 	font-family: 'Merriweather';
-	width: 85%;
+	width: auto;
 	height: auto;
 	background-color: #ffffff;
 	text-align: justify;

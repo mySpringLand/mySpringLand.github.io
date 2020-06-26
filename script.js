@@ -1,7 +1,7 @@
 $(function () {
 
-  var w = 594;
-  var h = 786;
+  var w = 561;
+  var h = 761;
   var ibounds = L.latLngBounds(L.latLng(0,0), L.latLng(h, w));
   var map = L.map('map', {
     crs: L.CRS.Simple,
@@ -204,7 +204,7 @@ $(function () {
       id: 38
     },
 	39: {
-      name: 'Лудорвая',
+      name: 'Лудорвай',
       coords: [255, 355],
       id: 39
     },
