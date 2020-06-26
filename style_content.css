@@ -35,22 +35,15 @@ div[id*=txt] {
 }
 
 #tabs {
-	margin: 20px 0 20px 0;
-	top:0px;
-	left:0px;
-	height: auto;
+	margin: 10px 0 10px 0;
 	display: flex;
 	flex-direction: column;
-	position: absolute;
 	text-align: center;
 }
 
 .tab_style{
-	height: 100%;
-	width: 155px;
-	margin-left: 5px;
 	margin-top: 5px;
-	padding-top: 5%;
+	padding-top: 4%;
 	color: #30596d;
 }
 
