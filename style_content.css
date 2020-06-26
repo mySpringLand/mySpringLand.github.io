@@ -39,11 +39,11 @@ div[id*=txt] {
 	top:0px;
 	left:0px;
 	height: 85%;
-	height: auto;
 	display: flex;
 	flex-direction: column;
 	position: absolute;
 	text-align: center;
+	overflow-y: scroll;
 }
 
 .tab_style{
